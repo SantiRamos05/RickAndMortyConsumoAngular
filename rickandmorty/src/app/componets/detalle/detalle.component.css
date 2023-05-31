@@ -1,0 +1,106 @@
+
+/**TITLE STYLE **/
+.titulo{
+  display: flex;
+  height: 5vh;
+  margin-top: var(--spacer-5);
+  margin-left: 10%;
+  margin-bottom: var(--spacer-5);
+}
+.titulo>h1{
+  font-weight: var(--font-weight-bold);
+  color: var(--gray-0);
+}
+/**---- **/
+/**CARDS STYLE **/
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10%;
+  margin-right: 10%;
+
+
+}
+.img-class{
+  width: 100%;
+  border-radius: 10%;
+}
+
+.tarjetas{
+  width: calc(90% / 4);
+  box-sizing: border-box;
+  box-shadow: var(--shadows);
+  border: solid 1px var(--gray-1);
+  border-radius: 10%;
+  margin-right: 2%;
+  margin-bottom: 5%;
+
+
+
+}
+
+.tarjetas>h3{
+  font-weight: var(--font-weight-bold);
+  font-size: large;
+  text-transform: uppercase;
+  margin-left: 10%;
+  margin-top: 10%;
+
+}
+
+.img-id{
+  display: flex;
+  flex-direction: row;
+}
+.number{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border-radius: 10px;
+  border: solid 1px var(--gray-1);
+  width: 50px;
+  height: 25px;
+  margin-left: -30%;
+  margin-top: 2%;
+
+}
+.description{
+  display: flex;
+  flex-direction: row;
+  height: 20px;
+
+}
+
+.descriptio{
+  display: flex;
+  flex-direction: row;
+  height: 20px;
+  margin-bottom: 10%;
+
+}
+
+.title-description{
+  font-weight: var(--font-weight-heavy);
+  font-size: small;
+  margin-left: 10%;
+
+}
+
+.caracteristicas{
+  font-size: small;
+  margin-left: 5%;
+
+}
+
+
+
+
+
+/**---- **/
+.pagination{
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+  justify-content: center;
+  align-items: center;
+}

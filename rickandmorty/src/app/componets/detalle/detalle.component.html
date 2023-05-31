@@ -1,0 +1,34 @@
+<div class="titulo">
+  <h2>Personajes</h2>
+</div>
+
+
+<div class="cards">
+  <div class="tarjetas" *ngFor="let character of characters">
+    <div class="img-id">
+      <img class="img-class" [src]="character.image" [alt]="character.name + character.id">
+      <div class="number"><p class="title-description">#:</p><p class="caracteristicas">{{ character.id }}</p></div>
+    </div>
+
+    <h3>{{ character.name }}</h3>
+    <div class="description">
+      <p class="title-description">Status:</p><p class="caracteristicas">{{ character.status }}</p>
+    </div>
+    <div class="description">
+      <p class="title-description">Gender:</p><p class="caracteristicas">{{ character.gender }}</p>
+    </div>
+    <div class="descriptio">
+      <p class="title-description">Specie:</p><p class="caracteristicas">{{ character.species }}</p>
+    </div>
+
+  </div>
+</div>
+
+<div class="pagination">
+  <mat-paginator [length]="totalItems" [pageSize]="itemsPerPage" [pageIndex]="currentPage" (page)="onPageChange($event)"></mat-paginator>
+</div>
+
+
+
+
+
