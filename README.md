@@ -1,2 +1,2 @@
-# LiteThinking-prueba
-Repositori para el desarrollo de la prueba de lite-thinking
+# Prubea Consumo Api rick and morty
+Repositori para el desarrollo del consumo del api con Angular
